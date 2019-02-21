@@ -1,4 +1,4 @@
-package com.example.eventsourcing;
+package com.example.userservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EventsourcingApplicationTests {
+public class UserServiceApplicationTests {
 
     @Test
     public void contextLoads() {

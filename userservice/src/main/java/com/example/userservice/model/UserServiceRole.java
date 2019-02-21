@@ -14,8 +14,8 @@ import java.io.Serializable;
 @Entity
 @Data
 @AllArgsConstructor @NoArgsConstructor
-public class Role implements Serializable {
-    public Role(String roleName) {
+public class UserServiceRole implements Serializable {
+    public UserServiceRole(String roleName) {
         this.roleName = roleName;
     }
 

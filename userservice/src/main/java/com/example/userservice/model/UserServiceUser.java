@@ -14,9 +14,9 @@ import java.io.Serializable;
 @Entity
 @Data
 @AllArgsConstructor @NoArgsConstructor
-public class User implements Serializable {
+public class UserServiceUser implements Serializable {
 
-    public User(String username, String firstName, String lastName) {
+    public UserServiceUser(String username, String firstName, String lastName) {
         this.username = username;
         this.firstName = firstName;
         this.lastName = lastName;

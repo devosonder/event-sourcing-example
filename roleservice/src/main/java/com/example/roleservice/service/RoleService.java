@@ -45,7 +45,6 @@ public class RoleService {
     }
 
     @EventHandler
-    @AllowReplay(false)
     public void on(UpdatedRoleEvent event) {
         System.out.println("event.roleName = " + event.roleName);
     }
